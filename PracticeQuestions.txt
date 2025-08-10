@@ -1,0 +1,69 @@
+Question 1: Library Fine Calculator
+A local library charges fines for overdue books based on the following rules: First 7 days overdue - 2 cedis per day, Days 8-14 overdue - 5 cedis per day, Days 15+ overdue - 10 cedis per day plus a 50 cedi processing fee. Write a program that asks the user for the number of days a book is overdue and calculates the total fine. Include input validation to ensure the number of days is not negative.
+Question 2: Digital Root Calculator
+The digital root of a number is found by repeatedly summing its digits until you get a single digit. For example, the digital root of 9875 is: 9+8+7+5 = 29, then 2+9 = 11, then 1+1 = 2. Write a program that takes a positive integer from the user and calculates its digital root. Display each step of the calculation process.
+Question 3: Grade Distribution Analyzer
+A teacher wants to analyze the distribution of grades in her class. Write a program that asks the teacher to input the number of students, then input each student's grade (0-100). The program should calculate and display: the number of students in each grade category (A: 90-100, B: 80-89, C: 70-79, D: 60-69, F: 0-59), the class average, and the percentage of students who passed (grade ≥ 60).
+Question 4: Armstrong Number Checker
+An Armstrong number (also called a narcissistic number) is a number that equals the sum of its own digits each raised to the power of the number of digits. For example, 153 is an Armstrong number because 1³ + 5³ + 3³ = 153. Write a program that checks if a given number is an Armstrong number and also finds all Armstrong numbers between 1 and 1000.
+Question 5: Password Strength Validator
+A secure password must meet certain criteria. Write a program that takes a password string from the user and checks if it meets these requirements: at least 8 characters long, contains at least one uppercase letter, contains at least one lowercase letter, contains at least one digit, contains at least one special character (!@#$%^&*). Display which criteria are met and which are not, then give an overall strength rating (Weak, Medium, Strong).
+Question 6: Number Pattern Generator
+Write a program that asks the user for a number n and generates the following pattern. For example, if n = 4:
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3
+1 2
+1
+The pattern goes up to n, then comes back down. Include error handling for negative inputs.
+Question 7: Currency Denominations
+A cashier needs to give change using the minimum number of bills and coins. Ghana has denominations of: 200, 100, 50, 20, 10, 5, 2, 1 cedi notes/coins. Write a program that takes the change amount and calculates how many of each denomination should be given to minimize the total number of bills/coins used. Display the breakdown clearly.
+Question 8: Fibonacci Sequence Generator
+Write a program that generates the first n numbers in the Fibonacci sequence, where each number is the sum of the two preceding ones (starting with 0 and 1). Additionally, the program should identify which numbers in the sequence are prime numbers and calculate the ratio of consecutive Fibonacci numbers (which approaches the golden ratio).
+Question 9: Student Report Card System
+Create a program for a student report card that handles multiple subjects. Ask for the student's name, number of subjects, and then for each subject: subject name and grade (0-100). Calculate the overall GPA on a 4.0 scale (A=4.0, B=3.0, C=2.0, D=1.0, F=0.0), determine the student's class rank based on GPA (First Class: 3.5-4.0, Second Class Upper: 3.0-3.49, Second Class Lower: 2.5-2.99, Third Class: 2.0-2.49, Fail: below 2.0), and display a formatted report card.
+Question 10: Leap Year and Calendar Calculator
+Write a program that takes a year as input and determines if it's a leap year. Then, ask for a month and calculate how many days are in that month for the given year. Finally, if the user provides a specific date (day, month, year), calculate what day of the week it falls on using a mathematical formula (like Zeller's congruence or a similar algorithm).
+Question 11: Number Base Converter
+Create a program that converts numbers between different number bases (binary, octal, decimal, hexadecimal). The user should specify the source base, the target base, and the number to convert. Include input validation to ensure the number is valid for the specified source base (e.g., binary numbers should only contain 0s and 1s).
+Question 12: Electricity Bill Calculator
+An electricity company uses a tiered billing system: First 50 units - 0.80 cedis per unit, Next 100 units (51-150) - 1.20 cedis per unit, Next 100 units (151-250) - 1.80 cedis per unit, Above 250 units - 2.50 cedis per unit. Additionally, there's a fixed service charge of 15 cedis and a 12% tax on the total bill. Write a program that calculates the total electricity bill based on units consumed.
+Question 13: Matrix Operations
+Write a program that works with 3x3 matrices. Allow the user to input two matrices and then perform basic operations: addition, subtraction, and multiplication. Display the results in a neat matrix format. Include validation to ensure matrix dimensions are appropriate for the requested operation.
+Question 14: Anagram Detector
+Two words are anagrams if they contain the same letters with the same frequency but in different order (like "listen" and "silent"). Write a program that takes two strings from the user and determines if they are anagrams. The program should ignore spaces and case differences. Also, find all possible anagrams of a given word from a predefined list of common English words.
+Question 15: Simple Encryption/Decryption
+Implement a Caesar cipher encryption program. Ask the user for a message and a shift value (how many positions to shift each letter in the alphabet). Encrypt the message by shifting each letter by the specified amount (wrapping around the alphabet). Also provide a decryption function. Handle both uppercase and lowercase letters while preserving spaces and punctuation.
+Questions 16-25: Advanced Level
+Question 16: Bank Account Management System
+Design a comprehensive bank account system using classes. Create a base Account class with account number, holder name, and balance. Derive SavingsAccount and CheckingAccount classes with different interest rates and overdraft policies. Implement methods for deposit, withdrawal, interest calculation, and transaction history. Include proper error handling for insufficient funds and invalid operations.
+Question 17: Student Grade Management with File I/O
+Create a student management system that stores student information in files. The program should allow adding new students, updating grades, calculating class statistics, and generating reports. Use file I/O to persist data between program runs. Implement search functionality to find students by name or ID. Handle file errors gracefully and provide data backup functionality.
+Question 18: Advanced Calculator with Expression Parsing
+Build a calculator that can evaluate mathematical expressions containing parentheses, multiple operators (+, -, *, /, ^), and functions (sin, cos, sqrt, log). Implement proper order of operations and error handling for invalid expressions. Use the shunting-yard algorithm or recursive descent parsing to handle complex expressions like "sin(45) + sqrt(16) * (3 + 2)".
+Question 19: Text Analysis and Statistics
+Create a comprehensive text analyzer that reads a text file and provides detailed statistics: word count, character count, sentence count, paragraph count, average words per sentence, most frequent words, reading level estimation (using algorithms like Flesch-Kincaid), and keyword density analysis. Implement text preprocessing to handle punctuation and case sensitivity properly.
+Question 20: Polymorphic Shape Calculator
+Design a shape hierarchy using inheritance and polymorphism. Create an abstract Shape base class with pure virtual functions for area and perimeter calculation. Implement derived classes for Circle, Rectangle, Triangle, and Polygon. Create a shape manager that can store different shapes in a container and perform batch operations. Include validation for shape parameters and interactive shape creation.
+Question 21: Mini Database System
+Implement a simple database system using C++ containers. Create a Student database that supports operations like INSERT, UPDATE, DELETE, and SELECT with basic WHERE clause functionality. Support indexing for faster searches and implement basic JOIN operations between related tables (Students, Courses, Enrollments). Include data validation and constraint checking.
+Question 22: Memory Pool Allocator
+Implement a custom memory management system that creates a memory pool for efficient allocation and deallocation of objects. The system should pre-allocate a large block of memory and manage it internally, providing faster allocation than standard new/delete operations. Include debugging features to detect memory leaks and track allocation patterns.
+Question 23: Recursive Maze Solver
+Create a maze-solving program that uses recursive backtracking. Represent the maze as a 2D array where 0 represents open paths and 1 represents walls. Implement a recursive function that finds a path from start to end position. Visualize the solving process by showing the path being explored and backtracked. Include multiple maze generation algorithms for testing.
+Question 24: Multi-threaded Task Scheduler
+Design a task scheduling system that can manage multiple concurrent tasks. Implement different scheduling algorithms (FIFO, Priority-based, Round Robin). Use appropriate synchronization mechanisms to handle shared resources safely. The scheduler should support task dependencies, priority levels, and execution time estimation. Include a monitoring interface to track task progress.
+Question 25: Template-based Data Structure Library
+Create a comprehensive library of templated data structures including Stack, Queue, LinkedList, and Binary Search Tree. Each data structure should support standard operations (insert, delete, search, traverse) and be generic enough to work with any data type. Implement iterators for traversal, exception handling for edge cases, and memory management for dynamic structures. Include thorough testing with different data types and performance benchmarking.
+
+Programming Tips for Students:
+
+Always plan your algorithm before coding
+Break complex problems into smaller functions
+Use meaningful variable names
+Include input validation and error handling
+Test your programs with edge cases (empty inputs, negative numbers, etc.)
+Comment your code to explain complex logic
+Consider time and space complexity for advanced problems
